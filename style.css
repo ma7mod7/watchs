@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(21, 21, 21) ;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.crud .title{
+    text-transform: uppercase;
+}
+.crud .title h1{
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+}
+.crud .title p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+}
+input:focus{
+    background-color: rgb(46, 46, 46);
+    transform: scale(1.01);
+}
+#title{
+    margin-bottom: 8px;
+}
+#count,#category{
+    margin-top: 10px;
+
+}
+.totalprice{
+
+    display: flex;
+}
+.totalprice input{
+    width: 30%;
+    margin-right: 8px;
+}
+small
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 4px;
+    background-color: rgb(121, 7, 7);
+    border-radius: 8px;
+    letter-spacing: 2px;
+
+}
+small::before{
+    content: "Total:";
+}
+button{
+    margin: 12px auto;
+    padding: 12px 8px;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(58, 3, 110);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.01);
+    background-color: rgb(76, 3, 144);
+    letter-spacing: 2px;
+}
+
+.outputs .search-btns {
+    display: flex;
+    gap: 10px;
+}
+
+#table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#table th, #table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+#table th {
+    background-color: rgb(58, 3, 110);
+    color: white;
+}
+
+#table tr:hover {
+    background-color: rgb(46, 46, 46);
+    transition: 0.3s;
+
+}
+#update,#delete:hover{
+    letter-spacing: 0px;
+
+}
